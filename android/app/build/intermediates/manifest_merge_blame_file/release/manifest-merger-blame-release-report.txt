@@ -1,0 +1,187 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.firefile"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->[:react-native-firebase_database] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+12-->[:react-native-firebase_database] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:react-native-firebase_database] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+13-->[:react-native-firebase_database] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+14
+15    <application
+15-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:6:5-25:19
+16        android:name="com.firefile.MainApplication"
+16-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:7:7-38
+17        android:allowBackup="false"
+17-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:11:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] /home/groovy/.gradle/caches/transforms-3/2b3b33053e067dded22f3c61e3b2147e/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+19        android:icon="@mipmap/ic_launcher"
+19-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:9:7-41
+20        android:label="@string/firefile"
+20-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:8:7-39
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:10:7-52
+22        android:theme="@style/AppTheme" >
+22-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:12:7-38
+23        <activity
+23-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:13:7-24:18
+24            android:name="com.firefile.MainActivity"
+24-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:14:9-37
+25            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+25-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:16:9-118
+26            android:exported="true"
+26-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:19:9-32
+27            android:label="@string/firefile"
+27-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:15:9-41
+28            android:launchMode="singleTask"
+28-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:17:9-40
+29            android:windowSoftInputMode="adjustResize" >
+29-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:18:9-51
+30            <intent-filter>
+30-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:20:9-23:25
+31                <action android:name="android.intent.action.MAIN" />
+31-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:21:13-65
+31-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:21:21-62
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:22:13-73
+33-->/home/groovy/Desktop/Native/firefile/android/app/src/main/AndroidManifest.xml:22:23-70
+34            </intent-filter>
+35        </activity>
+36
+37        <meta-data
+37-->[:react-native-firebase_app] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:36
+38            android:name="app_data_collection_default_enabled"
+38-->[:react-native-firebase_app] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-63
+39            android:value="true" />
+39-->[:react-native-firebase_app] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-33
+40
+41        <service
+41-->[:react-native-firebase_app] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:19
+42            android:name="com.google.firebase.components.ComponentDiscoveryService"
+42-->[:react-native-firebase_app] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-84
+43            android:directBootAware="true"
+43-->[:react-native-firebase_app] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-43
+44            android:exported="false" >
+44-->[:react-native-firebase_app] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+45            <meta-data
+45-->[:react-native-firebase_app] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:85
+46                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+46-->[:react-native-firebase_app] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-120
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[:react-native-firebase_app] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
+48            <meta-data
+48-->[com.google.firebase:firebase-firestore:24.5.0] /home/groovy/.gradle/caches/transforms-3/e52568a7bd20a3bc9329c2f9caf6734b/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:19:13-21:85
+49                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+49-->[com.google.firebase:firebase-firestore:24.5.0] /home/groovy/.gradle/caches/transforms-3/e52568a7bd20a3bc9329c2f9caf6734b/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:20:17-111
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-firestore:24.5.0] /home/groovy/.gradle/caches/transforms-3/e52568a7bd20a3bc9329c2f9caf6734b/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:21:17-82
+51            <meta-data
+51-->[com.google.firebase:firebase-database:20.2.0] /home/groovy/.gradle/caches/transforms-3/c1a179de258416f6c06ca6dec5f4d6c0/transformed/jetified-firebase-database-20.2.0/AndroidManifest.xml:31:13-33:85
+52                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+52-->[com.google.firebase:firebase-database:20.2.0] /home/groovy/.gradle/caches/transforms-3/c1a179de258416f6c06ca6dec5f4d6c0/transformed/jetified-firebase-database-20.2.0/AndroidManifest.xml:32:17-109
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-database:20.2.0] /home/groovy/.gradle/caches/transforms-3/c1a179de258416f6c06ca6dec5f4d6c0/transformed/jetified-firebase-database-20.2.0/AndroidManifest.xml:33:17-82
+54        </service>
+55
+56        <provider
+56-->[:react-native-firebase_app] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-29:38
+57            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+57-->[:react-native-firebase_app] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-88
+58            android:authorities="com.firefile.reactnativefirebaseappinitprovider"
+58-->[:react-native-firebase_app] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-86
+59            android:exported="false"
+59-->[:react-native-firebase_app] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
+60            android:initOrder="99" />
+60-->[:react-native-firebase_app] /home/groovy/Desktop/Native/firefile/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-35
+61        <provider
+61-->[com.google.firebase:firebase-common:20.3.2] /home/groovy/.gradle/caches/transforms-3/42a96812d5e0e0f1006f53eeed4532a3/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+62            android:name="com.google.firebase.provider.FirebaseInitProvider"
+62-->[com.google.firebase:firebase-common:20.3.2] /home/groovy/.gradle/caches/transforms-3/42a96812d5e0e0f1006f53eeed4532a3/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+63            android:authorities="com.firefile.firebaseinitprovider"
+63-->[com.google.firebase:firebase-common:20.3.2] /home/groovy/.gradle/caches/transforms-3/42a96812d5e0e0f1006f53eeed4532a3/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+64            android:directBootAware="true"
+64-->[com.google.firebase:firebase-common:20.3.2] /home/groovy/.gradle/caches/transforms-3/42a96812d5e0e0f1006f53eeed4532a3/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+65            android:exported="false"
+65-->[com.google.firebase:firebase-common:20.3.2] /home/groovy/.gradle/caches/transforms-3/42a96812d5e0e0f1006f53eeed4532a3/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+66            android:initOrder="100" />
+66-->[com.google.firebase:firebase-common:20.3.2] /home/groovy/.gradle/caches/transforms-3/42a96812d5e0e0f1006f53eeed4532a3/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+67
+68        <activity
+68-->[com.google.android.gms:play-services-auth:20.3.0] /home/groovy/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+69            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+69-->[com.google.android.gms:play-services-auth:20.3.0] /home/groovy/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+70            android:excludeFromRecents="true"
+70-->[com.google.android.gms:play-services-auth:20.3.0] /home/groovy/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+71            android:exported="false"
+71-->[com.google.android.gms:play-services-auth:20.3.0] /home/groovy/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+72-->[com.google.android.gms:play-services-auth:20.3.0] /home/groovy/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+73        <!--
+74            Service handling Google Sign-In user revocation. For apps that do not integrate with
+75            Google Sign-In, this service will never be started.
+76        -->
+77        <service
+77-->[com.google.android.gms:play-services-auth:20.3.0] /home/groovy/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+78            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+78-->[com.google.android.gms:play-services-auth:20.3.0] /home/groovy/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+79            android:exported="true"
+79-->[com.google.android.gms:play-services-auth:20.3.0] /home/groovy/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+80            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+80-->[com.google.android.gms:play-services-auth:20.3.0] /home/groovy/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+81            android:visibleToInstantApps="true" />
+81-->[com.google.android.gms:play-services-auth:20.3.0] /home/groovy/.gradle/caches/transforms-3/735be117d8bd4d99dccdf1e0d1c3875f/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+82
+83        <activity
+83-->[com.google.android.gms:play-services-base:18.1.0] /home/groovy/.gradle/caches/transforms-3/0fdde199ad6d5cd81bf5f7cf14de3789/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+84            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+84-->[com.google.android.gms:play-services-base:18.1.0] /home/groovy/.gradle/caches/transforms-3/0fdde199ad6d5cd81bf5f7cf14de3789/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+85            android:exported="false"
+85-->[com.google.android.gms:play-services-base:18.1.0] /home/groovy/.gradle/caches/transforms-3/0fdde199ad6d5cd81bf5f7cf14de3789/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+86-->[com.google.android.gms:play-services-base:18.1.0] /home/groovy/.gradle/caches/transforms-3/0fdde199ad6d5cd81bf5f7cf14de3789/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+87
+88        <meta-data
+88-->[com.google.android.gms:play-services-basement:18.1.0] /home/groovy/.gradle/caches/transforms-3/e08ba1b5c43b7f3021f878fd5432ea84/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+89            android:name="com.google.android.gms.version"
+89-->[com.google.android.gms:play-services-basement:18.1.0] /home/groovy/.gradle/caches/transforms-3/e08ba1b5c43b7f3021f878fd5432ea84/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+90            android:value="@integer/google_play_services_version" />
+90-->[com.google.android.gms:play-services-basement:18.1.0] /home/groovy/.gradle/caches/transforms-3/e08ba1b5c43b7f3021f878fd5432ea84/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+91
+92        <provider
+92-->[androidx.emoji2:emoji2:1.0.0] /home/groovy/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+93            android:name="androidx.startup.InitializationProvider"
+93-->[androidx.emoji2:emoji2:1.0.0] /home/groovy/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+94            android:authorities="com.firefile.androidx-startup"
+94-->[androidx.emoji2:emoji2:1.0.0] /home/groovy/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+95            android:exported="false" >
+95-->[androidx.emoji2:emoji2:1.0.0] /home/groovy/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+96            <meta-data
+96-->[androidx.emoji2:emoji2:1.0.0] /home/groovy/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+97                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+97-->[androidx.emoji2:emoji2:1.0.0] /home/groovy/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+98                android:value="androidx.startup" />
+98-->[androidx.emoji2:emoji2:1.0.0] /home/groovy/.gradle/caches/transforms-3/d1b1fec79ac2c9b0e68f11f0f16fbdfc/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+99            <meta-data
+99-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/groovy/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+100                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+100-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/groovy/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+101                android:value="androidx.startup" />
+101-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/groovy/.gradle/caches/transforms-3/dc93c7b8a438e88f7f6be28118219f1e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+102        </provider>
+103    </application>
+104
+105</manifest>

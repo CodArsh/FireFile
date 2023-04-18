@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/home/groovy/Desktop/Native/firefile/android/app"
+    name=":app"
+    type="APP"
+    maven="firefile:app:"
+    gradle="7.1.1"
+    buildFolder="build"
+    bootClassPath="/home/groovy/Android/Sdk/platforms/android-31/android.jar:/home/groovy/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
